@@ -1,0 +1,36 @@
+#Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+#TRAINING CODE + DATASET (PRIVATE)
+training_assets/
+
+#Virtual Environment
+venv/
+
+#Environment Variables
+.env
+
+#HuggingFace Cache (VERY IMPORTANT)
+.cache/
+huggingface/
+
+#Trained Model Files
+src/ml_model/category_model/
+src/ml_model/label_dict.pt
+
+#Training Checkpoints
+results/
+checkpoint-*/
+
+#Temp Uploaded Images
+temp_*
+
+#OS Files
+.DS_Store
+Thumbs.db
+
+#Logs
+*.log

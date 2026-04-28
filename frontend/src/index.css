@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f5f6fb;
+  color: #1f2937;
+}
+
+/* main card */
+.card {
+  background: white;
+  border-radius: 16px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+/* violet button */
+.primary-btn {
+  background: linear-gradient(
+    135deg,
+    #5b5fef,
+    #8b8fff
+  );
+  color: white;
+  border-radius: 10px;
+  padding: 10px 18px;
+  transition: 0.3s;
+}
+
+.primary-btn:hover {
+  transform: translateY(-2px);
+}
